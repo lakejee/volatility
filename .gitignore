@@ -1,0 +1,32 @@
+# Godot 4+ specific ignores
+.godot/
+
+# Godot-specific ignores
+*.translation
+export_presets.cfg
+export.cfg
+
+# Imported textures, models, etc.
+.import/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Build outputs
+/build/
+/export/
+*.pck
+*.zip
+
+# Personal notes (not for repo)
+/personal/
