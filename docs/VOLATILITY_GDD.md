@@ -119,7 +119,7 @@ ENTER ROOM → DOORS LOCK → KILL ENEMIES → COLLECT SHARDS
 |-------|----------|----------|
 | **Phase 1** | 100-66% | 3-projectile spread, 2s cooldown |
 | **Phase 2** | 66-33% | Spawns 2 Crawlers every 5s + continues shooting |
-| **Phase 3** | 33-0% | **Chases player** + 5-projectile spread, 1s cooldown |
+| **Phase 3** | 33-0% | **Chases player** (slow) + 5-projectile spread, 1s cooldown. Continues spawning Crawlers. |
 
 ### Victory
 - All enemies cleared

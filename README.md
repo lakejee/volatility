@@ -16,7 +16,7 @@ Kill Enemies → Collect Shards → Convert to Volatility → Get Stronger + Ene
 |-------|--------|
 | WASD | Move |
 | Arrow Keys | Shoot (4-direction) |
-| Shift | Convert shards → Volatility |
+| Space (hold) | Convert shards → Volatility |
 
 ## Project Status
 

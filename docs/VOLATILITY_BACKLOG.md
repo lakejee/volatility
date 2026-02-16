@@ -34,7 +34,7 @@
 | 2.3 | Stat scaling (player) | Player damage/fire rate/speed scale with volatility per GDD table | 4 |
 | 2.4 | Stat scaling (enemies) | Enemy HP/damage scale with volatility at spawn time | 4 |
 | 2.5 | Spitter enemy | Stationary, fires slow projectiles at player, 3 HP, drops 2 shards | 6 |
-| 2.6 | Charger enemy | Telegraph, dash, 4 HP, drops 3 shards | 6 |
+| 2.6 | Dasher enemy | Telegraph, dash, 4 HP, drops 3 shards | 6 |
 | 2.7 | Room transitions | Door collision loads next room, camera transitions, enemies spawn fresh | 6 |
 | 2.8 | Room clear detection | Doors locked until all enemies dead, unlock signal fires | 3 |
 | 2.9 | 4 hand-authored rooms | Start room + 3 normal rooms, different enemy compositions | 6 |

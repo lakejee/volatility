@@ -27,7 +27,7 @@
   - [x] 4% per shard
   - [x] Decay 0.1/sec
   - [x] Kill pause 1.5s stacking
-  - [x] Player scaling (+60%/+35%/+25%)
+  - [x] Player scaling (+40%/+25%/+20%)
   - [x] Enemy scaling (+20%/+10%)
 - [x] Basic HUD (Volatility, Shards, HP, Room)
 - [x] Single room playable
@@ -41,7 +41,7 @@
 - [x] Spitter enemy (stationary, ranged, aims at player)
 - [x] Dasher enemy (charges when aligned, telegraph)
 - [x] 4 rooms with varied compositions
-  - Room 1: 12 Crawlers (intro)
+  - Room 1: 5 Crawlers (intro)
   - Room 2: 4 Crawlers + 3 Spitters
   - Room 3: 4 Crawlers + 2 Spitters + 3 Dashers
   - Room 4: Boss

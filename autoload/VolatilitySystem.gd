@@ -173,9 +173,9 @@ func _update_multipliers() -> void:
 	var v: float = current_volatility
 	
 	# Player scales MORE than enemies (glass cannon)
-	player_damage_mult = 1.0 + v * PLAYER_DAMAGE_SCALE      # +60% per 1.0
-	player_fire_rate_mult = 1.0 + v * PLAYER_FIRE_RATE_SCALE  # +35% per 1.0
-	player_speed_mult = 1.0 + v * PLAYER_SPEED_SCALE        # +25% per 1.0
+	player_damage_mult = 1.0 + v * PLAYER_DAMAGE_SCALE      # +40% per 1.0
+	player_fire_rate_mult = 1.0 + v * PLAYER_FIRE_RATE_SCALE  # +25% per 1.0
+	player_speed_mult = 1.0 + v * PLAYER_SPEED_SCALE        # +20% per 1.0
 	
 	# Enemies scale less (V1.1 reduced)
 	enemy_damage_mult = 1.0 + v * ENEMY_DAMAGE_SCALE    # +20% per 1.0
