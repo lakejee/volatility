@@ -47,6 +47,25 @@ ENTER ROOM → DOORS LOCK → KILL ENEMIES → COLLECT SHARDS
 
 ---
 
+## 🧍 PLAYER BASE STATS
+
+| Stat | Value |
+|------|-------|
+| Max HP | 6 |
+| Move Speed | 120 |
+| Fire Rate | 4 shots/sec |
+| Base Damage | 2 |
+
+---
+
+## 💎 SHARDS
+
+- Enemies drop shards on death (amount varies by enemy type)
+- **Magnet pickup**: Shards are attracted to player within 50px range
+- Collected shards are held until converted to volatility
+
+---
+
 ## ⚡ VOLATILITY SYSTEM (V1.2)
 
 ### Conversion
@@ -81,11 +100,11 @@ ENTER ROOM → DOORS LOCK → KILL ENEMIES → COLLECT SHARDS
 
 ## 👾 ENEMIES (3 Types)
 
-| Type | Behavior | HP | Shards | Notes |
-|------|----------|-----|--------|-------|
-| **Crawler** | Chases player, contact damage | 3 | 1 | Intro enemy |
-| **Spitter** | Stationary, fires aimed projectile every 2s | 2 | 2 | Teaches dodging |
-| **Dasher** | Charges when aligned, yellow telegraph → red dash → gray recovery | 4 | 3 | High risk/reward |
+| Type | Behavior | HP | Damage | Speed | Shards |
+|------|----------|-----|--------|-------|--------|
+| **Crawler** | Chases player, contact damage | 3 | 1 | 60 | 1 |
+| **Spitter** | Stationary, fires aimed projectile every 2s | 2 | 1 (proj) | 0 | 2 |
+| **Dasher** | Charges when aligned, yellow telegraph → red dash → gray recovery | 4 | 2 | 30 / 350 dash | 3 |
 
 ---
 
